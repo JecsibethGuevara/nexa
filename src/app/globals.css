@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow {
+  box-shadow: 0 0 10px 2px #fff, 0 0 2px 4px #fff, 0 0 3px 6px #fff, 0 0 4px 8px #fff, 0 0 5px 10px #fff;
+  animation: glow 10s  infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px 2px #fff;
+  }
+  5% {
+    box-shadow: 0 0 20px 4px #F6BD60;
+  }
+  100% {
+    box-shadow: 0 0 10px 2px #fff;
+}
+}
